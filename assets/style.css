@@ -1,0 +1,93 @@
+/* General setup */
+@font-face {
+  font-family: Quicksand;
+  src: url(../Quicksand/Quicksand-Regular.woff);
+}
+@font-face {
+  font-family: Quicksand;
+  src: url(../Quicksand/Quicksand-Bold.woff);
+  font-weight: bold;
+}
+* {
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: Quicksand;
+  letter-spacing: 2px;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  line-height: 25px;
+}
+/* Layout */
+section {
+  float: left;
+  width: 50%;
+}
+aside {
+  float: left;
+  width: 30%;
+}
+nav {
+  float: left;
+  width: 20%;
+}
+footer {
+  clear: both;
+}
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+/* header and footer */
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+/* WRITE YOUR CODE BELOW HERE */
+header{
+  text-align: center;
+}
+h1{
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+h2{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+p{
+  text-indent: 20px;
+}
+a{
+color:#ff9872;
+}
+a:hover{
+  color:#a66;
+  text-decoration: none;
+}
+a:focus{
+  color:#a66;
+  outline: none;
+}
+a:visited{
+  color:#a22;
+}
+nav a{
+  text-decoration: none;
+  font-size: 30px;
+  color:#a66;
+}
+nav ul{
+  list-style-type: none;
+}
+nav li {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #a66;
+}
+footer{
+  text-align: center;
+}
